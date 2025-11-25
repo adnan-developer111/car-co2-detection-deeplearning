@@ -15,9 +15,9 @@ It includes engine size, cylinder count, and fuel consumption data that are used
 - Purpose: Real-world input features for training the AI model  
 
 
-### 🧪 `notebooks/`  → Jupyter Experiments
+### 🧪 `src/`  → Jupyter Experiments
 Contains all AI experiments, data preprocessing, and model training code.  
-The notebook **`j2.ipynb`** is the **core file** where the model is trained and tested.
+The notebook **`Neural-Networks.ipynb`** is the **core file** where the model is trained and tested.
 
 This is the main research notebook used for:
 - data analysis  
@@ -32,20 +32,4 @@ It visually explains the deep learning model and the layer-to-layer flow.
 - Example: `images/Neural-Networks.png` → **visual neural network structure**  
 
 
-### 💻 `src/`  → Main Source Code *(coming soon)*
-This folder will include the Python scripts needed for training and deploying the model.
-It will be converted from `co2-detection.ipynb` into clean and scalable Python files.
-
-Planned files:
-- `train.py` → trains the AI model  
-- `model.py` → defines the neural network  
-- `dataset.py` → loads and prepares the data  
-
-
-### 📈 `results/`  → Model Output *(coming soon)*
-This folder will store:
-- accuracy graphs  
-- prediction comparisons  
-- saved trained models  
-- evaluation metrics  
 
